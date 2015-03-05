@@ -1,0 +1,1 @@
+Phoca Gallery Simple Plugin is Joomla! CMS extension. Plugin which displays images of Phoca Gallery in article.
