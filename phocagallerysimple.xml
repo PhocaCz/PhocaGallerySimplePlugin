@@ -1,32 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension group="content" method="upgrade" type="plugin" version="3">
-	<name>plg_content_phocagallery_simple</name>
-	<creationDate>01/09/2014</creationDate>
+<extension type="plugin" group="content" method="upgrade" version="3">
+	<name>plg_content_phocagallerysimple</name>
 	<author>Jan Pavelka (www.phoca.cz)</author>
+	<creationDate>27/01/2019</creationDate>
 	<authorEmail></authorEmail>
-	<authorUrl>www.phoca.cz</authorUrl>
+	<authorUrl>https://www.phoca.cz</authorUrl>
 	<copyright>Jan Pavelka</copyright>
 	<license>GNU/GPL</license>
-	<version>4.1.1</version>
-	
-	<description>PLG_PHOCAGALLERY_SIMPLE_DESCRIPTION</description>
-	
+	<version>4.3.11</version>
+	<description>PLG_CONTENT_PHOCAGALLERYSIMPLE_DESCRIPTION</description>
+	<projectName>PhocaGallerySimplePlugin</projectName>
+
+	<media destination="plg_content_phocagallerysimple" folder="media">
+		<folder>images</folder>
+		<filename>index.html</filename>
+	</media>
+
 	<files>
+		<filename plugin="phocagallerysimple">index.html</filename>
 		<filename plugin="phocagallerysimple">phocagallerysimple.php</filename>
-		<filename >index.html</filename>
-		<folder>assets</folder>
 	</files>
-	
+
 	<languages>
 		<language tag="en-GB">language/en-GB/en-GB.plg_content_phocagallerysimple.ini</language>
 		<language tag="en-GB">language/en-GB/en-GB.plg_content_phocagallerysimple.sys.ini</language>
 	</languages>
-	
+
 	<administration>
 		<languages>
 			<language tag="en-GB">language/en-GB/en-GB.plg_content_phocagallerysimple.ini</language>
 			<language tag="en-GB">language/en-GB/en-GB.plg_content_phocagallerysimple.sys.ini</language>
 		</languages>
 	</administration>
+	
+	
 
+	<updateservers>
+		<server type="extension" name="PLG_CONTENT_PHOCAGALLERYSIMPLE"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaGallerySimplePlugin/master/manifest.xml]]></server>
+	</updateservers>
 </extension>
