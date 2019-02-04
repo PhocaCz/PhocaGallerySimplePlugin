@@ -16,6 +16,8 @@ Phoca Gallery Content Simple Plugin is a Joomla! plugin which displays images fr
 
 [Phoca Gallery Content Simple Plugin](https://www.phoca.cz/phoca-gallery-simple-plugin)
 
+[Phoca Gallery Info Page](https://www.phoca.cz/project/phocagallery-joomla-gallery)
+
 
 
 ## Documentation

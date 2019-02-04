@@ -9,6 +9,8 @@
 	"description": "Phoca Gallery Content Simple Plugin is a Joomla! plugin which displays images from selected Phoca Gallery category in an article content a simple way.",
 	"projectUrl": "https://www.phoca.cz/phoca-gallery-simple-plugin",
 	"projectDocumentationUrl": "https://www.phoca.cz/documentation/category/68-phoca-gallery-simple-plugin",
+	"projectMainComponent": "Phoca Gallery",
+	"projectMainComponentInfoUrl": "https://www.phoca.cz/project/phocagallery-joomla-gallery",
 	"projectDemo" : {
 		"Joomla! 2.5 Demo": "https://www.phoca.cz/joomlademo/"
 	},
