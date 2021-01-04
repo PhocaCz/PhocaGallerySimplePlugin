@@ -2,7 +2,7 @@
 
 
 
-![Phoca Gallery Content Simple Plugin](https://github.com/PhocaCz/PhocaGallerySimplePlugin/blob/master/phocagallerysimple.png)
+![Phoca Gallery Content Simple Plugin](https://github.com/PhocaCz/PhocaGallerySimplePlugin/blob/master/phocagallerysimple.png?raw=true)
 
 # Phoca Gallery Content Simple Plugin
 
@@ -23,6 +23,8 @@ Phoca Gallery Content Simple Plugin is a Joomla! plugin which displays images fr
 ## Documentation
 
 [Documentation](https://www.phoca.cz/documentation/category/68-phoca-gallery-simple-plugin)
+
+
 
 
 
@@ -52,7 +54,7 @@ Phoca Gallery Content Simple Plugin is a Joomla! plugin which displays images fr
 
 ## Version
 
-4.3.11
+4.4.0
 
 
 

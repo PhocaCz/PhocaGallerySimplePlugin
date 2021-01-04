@@ -250,7 +250,7 @@ window.addEvent(\'domready\', function() {
 					$count 	= count($images);
 					foreach ($images as $image) {
 
-						if ($image->extw != '') {
+						if ($image->extid != '') {
 							if ($tSize == 'small') {
 								$image->linkthubmnailpathT	= $image->exts;
 							} else {
@@ -262,7 +262,10 @@ window.addEvent(\'domready\', function() {
 							$image->linkthubmnailpathT	= JURI::base(true).'/'.$image->linkthubmnailpathT;
 							$image->linkthubmnailpathI	= PhocaGalleryImageFront::displayCategoryImageOrNoImage($image->filename, 'large');
 							$image->linkthubmnailpathI	= JURI::base(true).'/'.$image->linkthubmnailpathI;
+							
+							
 						}
+						
 
 						if ($i < $tMax) {
 							$oT .= '<span class="pgspt"><img src="'.$image->linkthubmnailpathT.'" alt="" /></span>';
